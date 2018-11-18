@@ -37,7 +37,17 @@ $list = array(
                 "url"=>"http://pullhls6.inke.cn/live/1542196929080215/playlist.m3u8"
             ),
         )
+    ),
+    array(
+        "title"=>"明星",
+        "data"=> array(
+            array(
+                "name"=>"周星驰",
+                "url"=>"https://3954.liveplay.myqcloud.com/live/3954_199681168.flv?bizid=3954&txSecret=19dc97541010ebb10796319ada8b6486&txTime=5bf9bbbd&uid=0&_t=1542507623024"
+            ),
+        )
     )
+
 );
 
 $json = json_encode($list);
